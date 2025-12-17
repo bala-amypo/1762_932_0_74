@@ -21,7 +21,7 @@ public class StudentServiceImpl implements StudentService {
 
     @Override
     public List<tudentEntity> getStudents() {
-        return repo.FIND;
+        return repo.FindAll();
     }
 
 
